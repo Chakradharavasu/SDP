@@ -1,0 +1,10 @@
+create database  Agriculture;
+use Agriculture ;
+create table Agriculture (ssn int primary key, Brand varchar(100), Price  double);
+desc Agriculture;
+insert into Agriculture  values(1,'Syngenta Ridomil gold Fungicide 500 Gram','990');
+insert into Agriculture values(2,'Pegasus Insecticide Syngenta','520');
+insert into Agriculture values(3,'Amistar Syngenta Fungicide','1300');
+insert into Agriculture values(4,'Kavach Fungicide SyngentaL','780');
+insert into Agriculture values(5,'Proclaim Insecticide Syngentaagriculture','1400');
+select * from Agriculture;

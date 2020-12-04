@@ -1,0 +1,112 @@
+nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+  
+
+   
+}
+.left-side{
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 21px;
+    font-family: sans-serif;
+   
+    text-transform: uppercase;
+    
+    }
+    
+    .nav-link-wrapper {
+        height: 22px;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom 0.5s;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        }
+
+        .nav-link-wrapper a {
+            color: black;
+            text-decoration: none;
+            transition: color 0.5s;
+
+        }
+
+        .nav-link-wrapper :hover{
+            border-bottom: 1px solidrgba(90, 173, 228, 0.932);
+        }
+
+        .nav-link-wrapper a:hover{
+            color: whitesmoke;
+        }
+        body{
+            background-image: url(1212.jpg);
+            background-size: cover ;
+            margin: 0;
+    padding: 0%;
+        }
+        .title{
+            font-size: 40px;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        .project{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .agriculture{
+                
+            color: whitesmoke;
+            text-align: center;
+        }
+
+        .agriculture a{
+           font-size: 30px;
+           font-family: sans-serif;
+            color: whitesmoke;
+            text-decoration: none;
+            transition: color 0.5s;
+
+          }
+
+           .agriculture a:hover{
+            color: #61a712;
+           }
+           .aquatic {
+                
+            color: black;
+            text-align: center;
+        }
+
+        .aquatic a{
+            font-size: 30px;
+           font-family: sans-serif;
+            color: whitesmoke;
+            text-decoration: none;
+            transition: color 0.5s;
+        }
+
+
+           .aquatic a:hover{
+            color: #61a712;
+            
+ 
+           }
+           .agriculture img{
+            width: 50%;
+            
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-top: 20%;
+            height: 300px;
+        }
+        .aquatic img{
+            width: 50%;
+            
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-top: 20%;
+            height: 300px;
+        }

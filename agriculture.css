@@ -1,0 +1,200 @@
+nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+   
+}
+.left-side{
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 21px;
+    font-family: sans-serif;
+   
+    text-transform: uppercase;
+    
+    }
+    
+    .nav-link-wrapper {
+        height: 22px;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom 0.5s;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        }
+
+        .nav-link-wrapper a {
+            color: black;
+            text-decoration: none;
+            transition: color 0.5s;
+
+        }
+
+        .nav-link-wrapper :hover{
+            border-bottom: 1px solidrgba(90, 173, 228, 0.932);
+        }
+
+        .nav-link-wrapper a:hover{
+            color: rebeccapurple;
+        }
+        html{
+            background-color: rgb(110, 253, 110);
+        }
+           
+        .title{
+            font-size: 40px;
+            text-align: center;
+            font-family: sans-serif;
+        }
+.pesticides{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-family: sans-serif;
+    
+}
+    
+            .Syngenta{
+            
+                color: whitesmoke;
+                text-align: center;
+              
+               }
+               .Syngenta a{
+                color: whitesmoke;
+                text-decoration: none;
+                transition: color 0.5s;
+    
+              }
+    
+               .Syngenta a:hover{
+                color:black;
+               }
+               .Kavach{
+            
+                color: whitesmoke;
+                text-align: center;
+              
+               }
+               .Kavach a{
+                color: whitesmoke;
+                text-decoration: none;
+                transition: color 0.5s;
+    
+              }
+    
+              .Kavach a:hover{
+                color:black;
+               }
+               .Pegasus{
+            
+                color: whitesmoke;
+                text-align: center;
+              
+               }
+              .Pegasus a{
+                color: whitesmoke;
+                text-decoration: none;
+                transition: color 0.5s;
+    
+              }
+    
+               .Pegasus a:hover{
+                color:black;
+               }
+               .Amistar{
+            
+                color: whitesmoke;
+                text-align: center;
+              
+               }
+              .Amistar a{
+                color: whitesmoke;
+                text-decoration: none;
+                transition: color 0.5s;
+    
+              }
+    
+               .Amistar a:hover{
+                color:black;
+               }
+               .Proclaim{
+            
+                color: whitesmoke;
+                text-align: center;
+              
+               }
+              .Proclaim a{
+                color: whitesmoke;
+                text-decoration: none;
+                transition: color 0.5s;
+    
+              }
+    
+               .Proclaim a:hover{
+                color:black;
+               }
+               .Syngenta img{
+                width: 70%;
+                padding-left: 20%;
+                padding-right: 20%;
+                height: 200px;
+            }
+            .Kavach img{
+                width: 70%;
+                padding-left: 20%;
+                padding-right: 20%;
+                height: 200px;
+            }
+            .Pegasus img{
+                width: 70%;
+                padding-left: 20%;
+                padding-right: 20%;
+                height: 200px;
+            }
+            .Proclaim img{
+                width: 70%;
+                padding-left: 20%;
+                padding-right: 20%;
+                height: 200px;
+            }
+            .Amistar img{
+                width: 70%;
+                padding-left: 20%;
+                padding-right: 20%;
+                height: 200px;
+                
+            }
+            .agriculture img{
+                width: 60%;
+                text-align: centre;
+            }
+.heading{
+    display: grid;
+            padding: 5%;
+            color: black;
+            font-size: 20px;
+            text-align: center;
+}
+.drone{
+    display: grid;
+            padding: 5%;
+            color: black;
+            font-size: 20px;
+            text-align: center;
+        
+}
+
+.drone img{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.heading img{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+html{
+    background-position: center;
+    background-repeat: no-repeat;
+}   
